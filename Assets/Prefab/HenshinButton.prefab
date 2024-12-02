@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 4615981152540276348}
   - component: {fileID: 1477931565015072012}
   - component: {fileID: 5710897508389105842}
+  - component: {fileID: -5374805382700998624}
   m_Layer: 5
-  m_Name: CungButton
+  m_Name: HenshinButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 717014216, guid: 32a20902cb4bb3a48aaaa1850714af61, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82c03677e3d9a814792818d994adca98, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -120,7 +121,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4615981152540276348}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -5374805382700998624}
+        m_TargetAssemblyTypeName: UseItem, Assembly-CSharp
+        m_MethodName: UseHenshin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5710897508389105842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,3 +147,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 8826674257360291351, guid: 4237f2d500d6ab9419ad474d937c5e7b, type: 3}
+--- !u!114 &-5374805382700998624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5306596678294888029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cdb4bc1db9b7449a6422305f9ed765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
