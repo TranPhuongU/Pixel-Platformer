@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Henshin : MonoBehaviour
 {
-    public GameObject player1Prefab;  // Kéo prefab Player1 từ Project
-    public GameObject player2Prefab;  // Kéo prefab Player2 từ Project
-
+    public GameObject player1Object;  // Player1 trong Hierarchy
+    public GameObject player2Prefab; // Kéo prefab Player2 từ Project
     private GameObject currentPlayer;
 
     void Start()
     {
-        // Khởi tạo Player1 ban đầu
-        currentPlayer = Instantiate(player1Prefab);
+        // Gán player1Object làm player hiện tại
+        currentPlayer = player1Object;
     }
 
     public void SwitchToPlayer2()
@@ -25,5 +24,13 @@ public class Henshin : MonoBehaviour
 
         // Tạo player mới tại vị trí cũ
         currentPlayer = Instantiate(player2Prefab, currentPosition, Quaternion.identity);
+
+        // Cập nhật tham chiếu cho các đối tượng Enemy
+        EnemyFollowPlayer[] enemies = FindObjectsOfType<EnemyFollowPlayer>();
+        foreach (EnemyFollowPlayer enemy in enemies)
+        {
+            enemy.player = currentPlayer.transform;
+        }
     }
+
 }

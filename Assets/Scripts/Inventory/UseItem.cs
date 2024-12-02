@@ -38,7 +38,7 @@ public class UseItem : MonoBehaviour
 
             hp.currentHP += 20; // Cộng thêm máu
 
-            healthBar.UpdateBar(dameable.Health, dameable.MaxHealth);
+            healthBar.UpdateBar(hp.currentHP, hp.maxHP);
            
         }
         if (dameable != null)

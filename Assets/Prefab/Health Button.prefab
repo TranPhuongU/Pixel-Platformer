@@ -124,7 +124,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: -6209506758330558102}
         m_TargetAssemblyTypeName: UseItem, Assembly-CSharp
-        m_MethodName: Use
+        m_MethodName: UseHP
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
