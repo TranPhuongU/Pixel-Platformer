@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 5097827225124831158}
   - component: {fileID: 1517081261449005011}
   - component: {fileID: 3055219856451212400}
-  - component: {fileID: 5458088150367499586}
   - component: {fileID: 5396932704822452627}
-  m_Layer: 0
+  - component: {fileID: -3278566721073914106}
+  m_Layer: 10
   m_Name: Bullet_0
-  m_TagString: Bullet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,21 +114,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5458088150367499586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9222423557753024949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b2e584d89670c04b9ffce8b292ee517, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  minDame: 5
-  maxDame: 10
 --- !u!58 &5396932704822452627
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -164,3 +149,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.2749999
+--- !u!114 &-3278566721073914106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9222423557753024949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e772c4abaebfb0740a3ef638b7fb934c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 10
+  knockback: {x: 1, y: 0}
+  speed: 5
+  minDame: 10
+  maxDame: 20

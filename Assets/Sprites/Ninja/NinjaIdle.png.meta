@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3140caa2986ce2343be5b81b622a24b2
+guid: 86b53976d8eef144ba41be280a096b91
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NinjaIdle_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 25
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102dc2b6a9695524d90c4ae2350f5d3f
+      internalID: 1448833005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaIdle_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 6
+        width: 25
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2588a753dd1fa459e5d0afdf6bde0f
+      internalID: 673909602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaIdle_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 6
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0561bede4f47d27418fdfd4cdef562d2
+      internalID: 991426428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaIdle_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 6
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2544e7570a3b98842833fe8652db71ce
+      internalID: 1361353381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaIdle_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 6
+        width: 29
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f6c0ebd99100e40ab13fd80de56076
+      internalID: 922040390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +237,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NinjaIdle_0: 1448833005
+      NinjaIdle_1: 673909602
+      NinjaIdle_2: 991426428
+      NinjaIdle_3: 1361353381
+      NinjaIdle_4: 922040390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

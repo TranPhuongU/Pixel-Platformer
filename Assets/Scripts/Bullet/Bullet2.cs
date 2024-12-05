@@ -21,7 +21,7 @@ public class Bullet2 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player2"))
         {
             // Lấy đối tượng Player
             Player player = collision.GetComponent<Player>();

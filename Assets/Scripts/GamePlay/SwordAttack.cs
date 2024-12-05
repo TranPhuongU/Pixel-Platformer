@@ -5,12 +5,13 @@ using UnityEngine;
 public class SwordAttack : MonoBehaviour
 {
     public int attackDamage = 10;
+    
     // bị đánh sẽ lùi về sau 1 chút
     public Vector2 knockback = Vector2.zero;
     // Start is called before the first frame update
     void Start()
     {
-        
+    
     }
 
     // Update is called once per frame

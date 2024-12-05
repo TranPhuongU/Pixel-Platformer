@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Henshin : MonoBehaviour
 {
+    public bool isHenshin = false;
     public GameObject player1Object;  // Player1 trong Hierarchy
-    public GameObject player2Prefab; // Kéo prefab Player2 từ Project
+    public GameObject player2Prefab;  // Kéo prefab Player2 từ Project
     private GameObject currentPlayer;
+
+    private Animator player2Animator;  // Biến lưu trữ Animator của Player2
 
     void Start()
     {
@@ -22,8 +25,24 @@ public class Henshin : MonoBehaviour
         // Hủy player hiện tại
         Destroy(currentPlayer);
 
-        // Tạo player mới tại vị trí cũ
+        // Tạo player mới (Player2) tại vị trí cũ
         currentPlayer = Instantiate(player2Prefab, currentPosition, Quaternion.identity);
+        isHenshin = true;
+
+        // Cập nhật tham chiếu cho Animator của Player2
+        player2Animator = currentPlayer.GetComponent<Animator>();
+
+        // Kiểm tra nếu Animator đã được gán
+        if (player2Animator != null)
+        {
+            // Bạn có thể thực hiện các thao tác với Animator của player2 tại đây
+            // Ví dụ, nếu muốn bắt đầu animation Idle ngay sau khi chuyển đổi
+            player2Animator.SetBool("isAlive", true);  // Giả sử có biến isAlive trong Animator
+        }
+        else
+        {
+            Debug.LogError("Không tìm thấy Animator trên Player2!");
+        }
 
         // Cập nhật tham chiếu cho các đối tượng Enemy
         EnemyFollowPlayer[] enemies = FindObjectsOfType<EnemyFollowPlayer>();
@@ -32,5 +51,4 @@ public class Henshin : MonoBehaviour
             enemy.player = currentPlayer.transform;
         }
     }
-
 }
