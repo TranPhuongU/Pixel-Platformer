@@ -5,8 +5,8 @@ using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirection),typeof(Dameable))] 
-public class Player2 : MonoBehaviour
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirection), typeof(Dameable))]
+public class NinjaPlayer : MonoBehaviour
 {
     HealthBar healthBar;
 
@@ -29,7 +29,7 @@ public class Player2 : MonoBehaviour
     {
         get
         {
-            if(CanMove)
+            if (CanMove)
             {
                 if (IsMoving && !touchingDirection.IsOnWall)
                 {
@@ -48,31 +48,36 @@ public class Player2 : MonoBehaviour
             }
         }
     }
-      
+
     // animation di chuyển
-    public bool IsMoving { get 
-        { 
+    public bool IsMoving
+    {
+        get
+        {
             return _isMoving;
         }
-        private set 
+        private set
         {
             _isMoving = value;
             animator.SetBool("isMoving", value);
         }
-       }
+    }
 
     //quay hướng mặt player
-    public bool IsFacingRight { get 
+    public bool IsFacingRight
+    {
+        get
         {
             return _isFacingRight;
-        } private set 
+        }
+        private set
         {
             if (_isFacingRight != value)
             {
-                transform.localScale *= new Vector2(-1,1);
+                transform.localScale *= new Vector2(-1, 1);
             }
             _isFacingRight = value;
-        } 
+        }
     }
     public bool CanMove
     {
@@ -145,7 +150,7 @@ public class Player2 : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
-        if(IsAlive)
+        if (IsAlive)
         {
             IsMoving = moveInput != Vector2.zero;
             SetFacingDirection(moveInput);
@@ -159,7 +164,7 @@ public class Player2 : MonoBehaviour
     //Quay hướng mặt player 
     public void SetFacingDirection(Vector2 moveInput)
     {
-        if(moveInput.x > 0 && !IsFacingRight)
+        if (moveInput.x > 0 && !IsFacingRight)
         {
             //Face is right
             IsFacingRight = true;
@@ -170,7 +175,7 @@ public class Player2 : MonoBehaviour
             IsFacingRight = false;
         }
     }
-    
+
     public void OnJump(InputAction.CallbackContext context)
     {
         //todo check if alive as well
@@ -190,10 +195,10 @@ public class Player2 : MonoBehaviour
     // 
     public void OnHit(int damage, Vector2 knockback)
     {
-        
+
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
         healthBar.UpdateBar(dameable.Health, dameable.MaxHealth);
 
     }
-    
+
 }

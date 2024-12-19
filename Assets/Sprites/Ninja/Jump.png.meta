@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ed95076cd710cc94480df5c2a0348069
+guid: 348806d33a8b27f47889533fff5bf524
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Move_0
+      name: Jump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5318ca918d3270f4fa32cc658be4e5cd
-      internalID: 2095083274
+      spriteID: 895bd00c86fee1043978ded89b445754
+      internalID: -1739731426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_1
+      name: Jump_1
       rect:
         serializedVersion: 2
         x: 80
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 520a1c5c80673474590bdb96e0676b40
-      internalID: -540876210
+      spriteID: ab2e8b09c2864754db38fdbd188145ae
+      internalID: 692203070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_2
+      name: Jump_2
       rect:
         serializedVersion: 2
         x: 160
@@ -179,113 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c93c34651dbc6d4ab6802379abf9ab9
-      internalID: -392078138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_3
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 80
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1163c178d062a194ea2bc64df7d58653
-      internalID: -1451824167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_4
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 80
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4796b4a0b0f8a8a4eb4651fe07e5baa7
-      internalID: 462921609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_5
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 80
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c2b0a3d94f920a46ad38a7a34fa0da7
-      internalID: 1040142704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_6
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 80
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 687823c3f076a79438a0af7ebc61af77
-      internalID: -1273474115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_7
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 0
-        width: 80
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bad75d5896efdee44ae84b0502190460
-      internalID: -1574564350
+      spriteID: 5eba43c6f193ed84a86603dbe25843be
+      internalID: 351001234
       vertices: []
       indices: 
       edges: []
@@ -301,14 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Move_0: 2095083274
-      Move_1: -540876210
-      Move_2: -392078138
-      Move_3: -1451824167
-      Move_4: 462921609
-      Move_5: 1040142704
-      Move_6: -1273474115
-      Move_7: -1574564350
+      Jump_0: -1739731426
+      Jump_1: 692203070
+      Jump_2: 351001234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

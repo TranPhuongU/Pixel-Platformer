@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 86b53976d8eef144ba41be280a096b91
+guid: 6fc2d453dad255544913b028ee3b62f4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,106 +123,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NinjaIdle_0
+      name: Throw_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 6
-        width: 25
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 102dc2b6a9695524d90c4ae2350f5d3f
-      internalID: 1448833005
+      spriteID: ca3ab7780b4352b42b98cff17783e4ae
+      internalID: -315981535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaIdle_1
+      name: Throw_1
       rect:
         serializedVersion: 2
-        x: 47
-        y: 6
-        width: 25
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 80
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb2588a753dd1fa459e5d0afdf6bde0f
-      internalID: 673909602
+      spriteID: 560594653a7a78c409eb961fa2614fe3
+      internalID: -1349680088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaIdle_2
+      name: Throw_2
       rect:
         serializedVersion: 2
-        x: 85
-        y: 6
-        width: 27
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 160
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0561bede4f47d27418fdfd4cdef562d2
-      internalID: 991426428
+      spriteID: fce6a2cd47d91514bb630960446194b1
+      internalID: 1378889780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaIdle_3
+      name: Throw_3
       rect:
         serializedVersion: 2
-        x: 124
-        y: 6
-        width: 27
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 240
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2544e7570a3b98842833fe8652db71ce
-      internalID: 1361353381
+      spriteID: 47c94698873d6c4438a0a0cf88863936
+      internalID: 1523724203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NinjaIdle_4
+      name: Throw_4
       rect:
         serializedVersion: 2
-        x: 162
-        y: 6
-        width: 29
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 320
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74f6c0ebd99100e40ab13fd80de56076
-      internalID: 922040390
+      spriteID: d2e542f1bbe1b6545855323414cdb2f9
+      internalID: -1998609726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throw_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb45cf2df5806742ab245eca3b5a3a1
+      internalID: -436518094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throw_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a86b2abf4b7a64bb2763731897ec16
+      internalID: 2114249544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throw_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c4534221e7c4d469c0a7e3e9300714
+      internalID: -851151940
       vertices: []
       indices: 
       edges: []
@@ -238,11 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NinjaIdle_0: 1448833005
-      NinjaIdle_1: 673909602
-      NinjaIdle_2: 991426428
-      NinjaIdle_3: 1361353381
-      NinjaIdle_4: 922040390
+      Throw_0: -315981535
+      Throw_1: -1349680088
+      Throw_2: 1378889780
+      Throw_3: 1523724203
+      Throw_4: -1998609726
+      Throw_5: -436518094
+      Throw_6: 2114249544
+      Throw_7: -851151940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

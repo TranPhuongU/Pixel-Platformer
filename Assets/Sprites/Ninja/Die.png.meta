@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ed95076cd710cc94480df5c2a0348069
+guid: 5c271dd2f21286b419a79391a21db5fd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Move_0
+      name: Die_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5318ca918d3270f4fa32cc658be4e5cd
-      internalID: 2095083274
+      spriteID: f969581fffc1bb44abb5c3a238dc5e17
+      internalID: 1350580877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_1
+      name: Die_1
       rect:
         serializedVersion: 2
         x: 80
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 520a1c5c80673474590bdb96e0676b40
-      internalID: -540876210
+      spriteID: a62b4bc797653f4498b63727da8c2952
+      internalID: 294055923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_2
+      name: Die_2
       rect:
         serializedVersion: 2
         x: 160
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c93c34651dbc6d4ab6802379abf9ab9
-      internalID: -392078138
+      spriteID: fdfe41b489e31034188114e434363b04
+      internalID: 1448869429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_3
+      name: Die_3
       rect:
         serializedVersion: 2
         x: 240
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1163c178d062a194ea2bc64df7d58653
-      internalID: -1451824167
+      spriteID: 6bbe4d73f8ac0c34695a836af329d17b
+      internalID: -1064007088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_4
+      name: Die_4
       rect:
         serializedVersion: 2
         x: 320
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4796b4a0b0f8a8a4eb4651fe07e5baa7
-      internalID: 462921609
+      spriteID: bc74206def0a1cf428cd403306c7b4a4
+      internalID: 1555519635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_5
+      name: Die_5
       rect:
         serializedVersion: 2
         x: 400
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c2b0a3d94f920a46ad38a7a34fa0da7
-      internalID: 1040142704
+      spriteID: 0e6818cce1a84ca4a9d10d0e97025efd
+      internalID: -1784966731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_6
+      name: Die_6
       rect:
         serializedVersion: 2
         x: 480
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 687823c3f076a79438a0af7ebc61af77
-      internalID: -1273474115
+      spriteID: 1b7c03c562759534683373b6f548fc65
+      internalID: 1812008218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_7
+      name: Die_7
       rect:
         serializedVersion: 2
         x: 560
@@ -284,8 +284,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bad75d5896efdee44ae84b0502190460
-      internalID: -1574564350
+      spriteID: a6015ffa95bec7048b5b266574370c63
+      internalID: 1676419292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Die_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cd6ba3aaa52b34da6c2644a61f6da6
+      internalID: 52676345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Die_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60db857f7e9740a4f9c96f05091e2c64
+      internalID: -2025694574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Die_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc3d1d2769834543a3e21999f14eae3
+      internalID: -743477553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Die_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d940b95d39721468e371d4aa874cd1
+      internalID: -35141728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Die_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9c632a41547aa4d995393ad99c5e44
+      internalID: 1688017916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Die_13
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa09ae502e009bf4a8bbec1e157a5424
+      internalID: -1389079030
       vertices: []
       indices: 
       edges: []
@@ -301,14 +427,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Move_0: 2095083274
-      Move_1: -540876210
-      Move_2: -392078138
-      Move_3: -1451824167
-      Move_4: 462921609
-      Move_5: 1040142704
-      Move_6: -1273474115
-      Move_7: -1574564350
+      Die_0: 1350580877
+      Die_1: 294055923
+      Die_10: -743477553
+      Die_11: -35141728
+      Die_12: 1688017916
+      Die_13: -1389079030
+      Die_2: 1448869429
+      Die_3: -1064007088
+      Die_4: 1555519635
+      Die_5: -1784966731
+      Die_6: 1812008218
+      Die_7: 1676419292
+      Die_8: 52676345
+      Die_9: -2025694574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
